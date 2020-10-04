@@ -15,7 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout 🛎
+      uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:

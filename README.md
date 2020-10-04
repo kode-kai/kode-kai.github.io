@@ -9,3 +9,7 @@ pip install -r requirements.txt
 ```
 
 To view the website, use `pelican content && pelican --listen` inside the environment.
+
+Considerations:  
+
+ - If modifying the theme's css, remember to minify the file with: `python -m csscompressor clean-blog/static/css/clean-blog.css > clean-blog/static/css/clean-blog.min.css`

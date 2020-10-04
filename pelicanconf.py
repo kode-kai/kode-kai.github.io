@@ -25,8 +25,11 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+        ('Twitter', 'https://twitter.com/kode_kai'),
+        ('YouTube', 'https://youtube.com/#'),
+        ('GitHub', 'https://github.com/kode-kai'),
+    )
 
 DEFAULT_PAGINATION = 10
 
@@ -34,3 +37,8 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'clean-blog'
+
+COLOR_YELLOW = '#F8E71C'
+COLOR_RED = '#B50218'
+
+HEADER_COLOR = '#F8E71C'

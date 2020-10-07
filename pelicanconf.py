@@ -26,9 +26,11 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social widget
 SOCIAL = (
+        ('YouTube', 'https://www.youtube.com/channel/UCEOGKsAcIpVGxgdCTq7z-Zg'),
+        ('Twitch', 'https://twitch.tv/kode_kai'),
         ('Twitter', 'https://twitter.com/kode_kai'),
-        ('YouTube', 'https://youtube.com/#'),
         ('GitHub', 'https://github.com/kode-kai'),
+        ('Facebook', 'https://www.facebook.com/kodekaishow/'),
     )
 
 DEFAULT_PAGINATION = 10
